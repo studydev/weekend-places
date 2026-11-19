@@ -6,7 +6,7 @@ let places = [];
 function show(region) {
   for (const b of regionsEl.querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.region === region));
   const list = places.filter(p => p.region === region);
-  cardsEl.innerHTML = list.map(p => `<li><b>${p.name}</b><span>${p.desc}</span></li>`).join('');
+  cardsEl.innerHTML = list.map(p => `<li><img src="images/${p.kind}.svg" alt=""><b>${p.name}</b><span>${p.desc}</span></li>`).join('');
 }
 
 fetch('data/places.json')
