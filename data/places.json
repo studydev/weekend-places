@@ -9,7 +9,7 @@
     { "region": "부산", "name": "금정산", "desc": "성곽길 따라 걷는 산", "kind": "mountain", "indoor": false },
     { "region": "부산", "name": "아쿠아리움", "desc": "비 와도 OK, 해운대 바로 앞", "kind": "aquarium", "indoor": true },
     { "region": "부산", "name": "시립미술관", "desc": "조용히 보는 전시", "kind": "museum", "indoor": true },
-    { "region": "부산", "name": "광안리 해수욕장", "desc": "밤에 다리 불빛이 예쁘다", "kind": "beach", "indoor": "false" },
+    { "region": "부산", "name": "광안리 해수욕장", "desc": "밤에 다리 불빛이 예쁘다", "kind": "beach", "indoor": false },
     { "region": "부산", "name": "송정 해수욕장", "desc": "서핑하는 사람이 많은 조용한 바다", "kind": "beach", "indoor": false },
     { "region": "제주", "name": "성산일출봉", "desc": "해 뜨는 분화구, 아침 일찍", "kind": "mountain", "indoor": false },
     { "region": "제주", "name": "협재 해수욕장", "desc": "물빛이 맑은 바다", "kind": "beach", "indoor": false },
