@@ -11,6 +11,9 @@
     { "region": "부산", "name": "시립미술관", "desc": "조용히 보는 전시", "kind": "museum", "indoor": true },
     { "region": "부산", "name": "광안리 해수욕장", "desc": "밤에 다리 불빛이 예쁘다", "kind": "beach", "indoor": "false" },
     { "region": "부산", "name": "송정 해수욕장", "desc": "서핑하는 사람이 많은 조용한 바다", "kind": "beach" },
+    { "region": "제주", "name": "성산일출봉", "desc": "해 뜨는 분화구, 아침 일찍", "kind": "mountain", "indoor": false },
+    { "region": "제주", "name": "협재 해수욕장", "desc": "물빛이 맑은 바다", "kind": "beach", "indoor": false },
+    { "region": "제주", "name": "한라산 영실 코스", "desc": "짧게 오르는 한라산", "kind": "mountain", "indoor": false },
     { "region": "강릉", "name": "경포대", "desc": "호수와 바다를 함께", "kind": "sea", "indoor": false },
     { "region": "강릉", "name": "안목 커피거리", "desc": "바다 보며 커피 한잔", "kind": "sea", "indoor": false },
     { "region": "강릉", "name": "오죽헌", "desc": "율곡 이이가 태어난 집", "kind": "heritage", "indoor": false }
