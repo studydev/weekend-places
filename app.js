@@ -7,7 +7,7 @@ let indoorOnly = false;
 function show(region) {
   for (const b of regionsEl.querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.region === region));
   const list = places.filter(p => p.region === region && (!indoorOnly || p.indoor));
-  cardsEl.innerHTML = list.map(p => `<li>${p.indoor ? '<em class="indoor">☂ 실내</em>' : ''}<b>${p.name}</b><span>${p.desc}</span></li>`).join('');
+  cardsEl.innerHTML = list.map(p => `<li><img src="images/${p.kind}.svg" alt="">${p.indoor ? '<em class="indoor">☂ 실내</em>' : ''}<b>${p.name}</b><span>${p.desc}</span></li>`).join('');
 }
 
 fetch('data/places.json')
