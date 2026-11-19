@@ -1,0 +1,18 @@
+{
+  "regions": ["서울", "부산", "제주", "강릉"],
+  "places": [
+    { "region": "서울", "name": "경복궁", "desc": "조선의 첫 궁궐, 한복 입으면 무료", "kind": "heritage", "indoor": false },
+    { "region": "서울", "name": "북한산", "desc": "도심에서 가는 큰 산, 백운대 코스", "kind": "mountain", "indoor": false },
+    { "region": "서울", "name": "조계사", "desc": "도심 속 절, 연등이 예쁜 곳", "kind": "heritage", "indoor": false },
+    { "region": "부산", "name": "해운대 해수욕장", "desc": "부산 대표 바다, 산책로가 길다", "kind": "sea", "indoor": false },
+    { "region": "부산", "name": "해동용궁사", "desc": "바닷가 바위 위의 절", "kind": "heritage", "indoor": false },
+    { "region": "부산", "name": "금정산", "desc": "성곽길 따라 걷는 산", "kind": "mountain", "indoor": false },
+    { "region": "부산", "name": "아쿠아리움", "desc": "비 와도 OK, 해운대 바로 앞", "kind": "aquarium", "indoor": true },
+    { "region": "부산", "name": "시립미술관", "desc": "조용히 보는 전시", "kind": "museum", "indoor": true },
+    { "region": "부산", "name": "광안리 해수욕장", "desc": "밤에 다리 불빛이 예쁘다", "kind": "beach", "indoor": "false" },
+    { "region": "부산", "name": "송정 해수욕장", "desc": "서핑하는 사람이 많은 조용한 바다", "kind": "beach" },
+    { "region": "강릉", "name": "경포대", "desc": "호수와 바다를 함께", "kind": "sea", "indoor": false },
+    { "region": "강릉", "name": "안목 커피거리", "desc": "바다 보며 커피 한잔", "kind": "sea", "indoor": false },
+    { "region": "강릉", "name": "오죽헌", "desc": "율곡 이이가 태어난 집", "kind": "heritage", "indoor": false }
+  ]
+}
