@@ -9,3 +9,7 @@ header p { margin: 4px 0 0; color: #5b6475; }
 #cards li { background: #fff; border-radius: 12px; padding: 14px 16px; box-shadow: 0 1px 4px rgba(20, 40, 80, .08); }
 #cards b { display: block; font-size: 17px; }
 #cards span { color: #5b6475; font-size: 14px; }
+.filter { padding: 0 16px; margin: 0; }
+#indoor { border: 1px solid #c9d3e3; background: #fff; border-radius: 999px; padding: 6px 14px; font-size: 15px; cursor: pointer; }
+#indoor[aria-pressed="true"] { background: #1f883d; border-color: #1f883d; color: #fff; }
+.indoor { float: right; font-style: normal; font-size: 12px; color: #1f883d; }
